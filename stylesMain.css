@@ -1,0 +1,93 @@
+
+@font-face {
+  font-family: comicNoteSmooth;
+  src: url("fonts/ComicNoteSmooth.ttf");
+  font-display: auto;
+}
+
+body{
+	background-color:white;
+	background-image:url(icones/fond6.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: 0% 50%;
+	padding-top:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	font-family: comicNoteSmooth;
+}
+
+.ligne{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.titre{
+	font-size: 60px;
+	text-align: center;
+	color: #103E62;
+}
+
+.titre2{
+	font-size: 40px;
+	text-align: center;
+}
+
+.caseGauche{
+	text-align:right;
+}
+
+.normal{
+	font-size: 30px;
+}
+
+.petit{
+	font-size: 25px;
+}
+
+.gauche{
+	text-align: left;	
+}
+
+.centre{
+	text-align: center;	
+}
+
+.rose{
+	color: #E4107F;
+}
+
+.orange{
+	color: #E84D1D;
+}
+
+.bleu{
+	color: #20A9E0;
+}
+
+.bleufonce{
+	color: #103E62;
+}
+
+.liencatalogue{
+	font-size: 30px;
+	text-align: center;
+	color: #3DAB38;
+	text-decoration: none;
+}
+
+.liencatalogue:hover{
+	color: #3DAB38;
+	text-decoration: underline;
+}
+
+#lienFacebook{
+	text-decoration: none;
+}
+
+#lienFacebook:hover{
+	color: #E84D1D;
+	text-decoration: underline;
+	
+}
